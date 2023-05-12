@@ -1,0 +1,78 @@
+body{
+    background: whitesmoke;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: rgba(1, 1, 56, 0.89);
+    /* font-weight: 200; */
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    border: 15px solid #7bc9e982;
+    padding: 15px 25px;
+}
+.input-box input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    /* box-shadow: 2px 2px 2px black; */
+    border: none;
+    color: rgba(1, 1, 56, 0.89);
+}
+textarea{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    /* box-shadow: 2px 2px 2px black; */
+    border: none;
+    color: rgba(1, 1, 56, 0.89);
+}
+::placeholder{
+    color: rgba(1, 1, 56, 0.89);
+}
+.box1 input{
+    background-color: #879cde45 ;
+}
+.box2 input{
+    background-color: #879bde6e ;
+}
+.box3 input{
+    background-color: #879bdeb7 ;
+    width: 23rem;
+}
+.box4 textarea{
+    background-color: #879bdef2 ;
+    width: 23rem;
+    height: 4rem;
+    resize: none;
+}
+.box5{
+    display: flex;
+    justify-content: center;
+}
+.box5 input{
+    background-color: blue;
+    width: 8rem;
+    border-radius: 20px;
+}
+#top-text{
+    font-size: 2rem;
+    margin-left: 10PX;
+}
+.box6{
+    font-size: 15px;
+    margin-left: 10px;
+    color: rgba(20, 206, 20, 0.841);
+
+}
+.box4{
+    text-align:end;
+}
